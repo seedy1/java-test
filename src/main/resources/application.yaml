@@ -1,0 +1,26 @@
+spring:
+  application:
+    name: Uber Eats
+  datasource:
+    username: sa
+    url: jdbc:h2:mem:ubereatsDB
+    driverClassName: org.h2.Driver
+    password: password
+  h2:
+    console:
+      enabled: 'true'
+  jpa:
+    database-platform: org.hibernate.dialect.H2Dialect
+
+server:
+  port: 8081
+
+logging:
+  level:
+    com:
+      example:
+        demo=DEBUG:
+    root: info
+  file:
+    name: logs/ubereatlogs.log
+    path: logs

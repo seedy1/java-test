@@ -1,0 +1,361 @@
+2024-07-17T15:12:45.271+02:00  INFO 43004 --- [Uber Eats] [main] c.t.j.JobeJavaMatawanSolutionApplication : Starting JobeJavaMatawanSolutionApplication using Java 22.0.1 with PID 43004 (/Users/seedy/IdeaProjects/jobeJavaMatawanSolution/target/classes started by seedy in /Users/seedy/IdeaProjects/jobeJavaMatawanSolution)
+2024-07-17T15:12:45.272+02:00  INFO 43004 --- [Uber Eats] [main] c.t.j.JobeJavaMatawanSolutionApplication : No active profile set, falling back to 1 default profile: "default"
+2024-07-17T15:12:45.474+02:00  INFO 43004 --- [Uber Eats] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-07-17T15:12:45.498+02:00  INFO 43004 --- [Uber Eats] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 20 ms. Found 2 JPA repository interfaces.
+2024-07-17T15:12:45.650+02:00  INFO 43004 --- [Uber Eats] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8081 (http)
+2024-07-17T15:12:45.654+02:00  INFO 43004 --- [Uber Eats] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-07-17T15:12:45.654+02:00  INFO 43004 --- [Uber Eats] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-07-17T15:12:45.668+02:00  INFO 43004 --- [Uber Eats] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-07-17T15:12:45.668+02:00  INFO 43004 --- [Uber Eats] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 379 ms
+2024-07-17T15:12:45.678+02:00  INFO 43004 --- [Uber Eats] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-07-17T15:12:45.752+02:00  INFO 43004 --- [Uber Eats] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:ubereatsDB user=SA
+2024-07-17T15:12:45.752+02:00  INFO 43004 --- [Uber Eats] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-07-17T15:12:45.756+02:00  INFO 43004 --- [Uber Eats] [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:ubereatsDB'
+2024-07-17T15:12:45.801+02:00  INFO 43004 --- [Uber Eats] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-07-17T15:12:45.828+02:00  INFO 43004 --- [Uber Eats] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.9.Final
+2024-07-17T15:12:45.840+02:00  INFO 43004 --- [Uber Eats] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-07-17T15:12:45.910+02:00  INFO 43004 --- [Uber Eats] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-07-17T15:12:45.928+02:00  WARN 43004 --- [Uber Eats] [main] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-07-17T15:12:46.236+02:00  INFO 43004 --- [Uber Eats] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-07-17T15:12:46.251+02:00  INFO 43004 --- [Uber Eats] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-07-17T15:12:46.331+02:00  WARN 43004 --- [Uber Eats] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-07-17T15:12:46.441+02:00  INFO 43004 --- [Uber Eats] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8081 (http) with context path ''
+2024-07-17T15:12:46.445+02:00  INFO 43004 --- [Uber Eats] [main] c.t.j.JobeJavaMatawanSolutionApplication : Started JobeJavaMatawanSolutionApplication in 1.326 seconds (process running for 1.59)
+2024-07-17T15:12:46.446+02:00  INFO 43004 --- [Uber Eats] [main] c.t.j.SeedDatabase                       : Seeding teams and players.
+2024-07-17T15:12:46.486+02:00  INFO 43004 --- [Uber Eats] [main] c.t.j.SeedDatabase                       : Seeding successful.
+2024-07-17T15:13:03.847+02:00  INFO 43004 --- [Uber Eats] [http-nio-8081-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-07-17T15:13:03.848+02:00  INFO 43004 --- [Uber Eats] [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-07-17T15:13:03.849+02:00  INFO 43004 --- [Uber Eats] [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-07-17T15:13:16.134+02:00  INFO 43004 --- [Uber Eats] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-07-17T15:13:16.141+02:00  INFO 43004 --- [Uber Eats] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-07-17T15:13:16.142+02:00  INFO 43004 --- [Uber Eats] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-07-17T15:14:22.267+02:00  INFO 43010 --- [Uber Eats] [main] c.t.j.JobeJavaMatawanSolutionApplication : Starting JobeJavaMatawanSolutionApplication using Java 22.0.1 with PID 43010 (/Users/seedy/IdeaProjects/jobeJavaMatawanSolution/target/classes started by seedy in /Users/seedy/IdeaProjects/jobeJavaMatawanSolution)
+2024-07-17T15:14:22.268+02:00  INFO 43010 --- [Uber Eats] [main] c.t.j.JobeJavaMatawanSolutionApplication : No active profile set, falling back to 1 default profile: "default"
+2024-07-17T15:14:22.471+02:00  INFO 43010 --- [Uber Eats] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-07-17T15:14:22.488+02:00  INFO 43010 --- [Uber Eats] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 14 ms. Found 2 JPA repository interfaces.
+2024-07-17T15:14:22.633+02:00  INFO 43010 --- [Uber Eats] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8081 (http)
+2024-07-17T15:14:22.637+02:00  INFO 43010 --- [Uber Eats] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-07-17T15:14:22.637+02:00  INFO 43010 --- [Uber Eats] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-07-17T15:14:22.655+02:00  INFO 43010 --- [Uber Eats] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-07-17T15:14:22.655+02:00  INFO 43010 --- [Uber Eats] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 373 ms
+2024-07-17T15:14:22.665+02:00  INFO 43010 --- [Uber Eats] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-07-17T15:14:22.730+02:00  INFO 43010 --- [Uber Eats] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:ubereatsDB user=SA
+2024-07-17T15:14:22.730+02:00  INFO 43010 --- [Uber Eats] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-07-17T15:14:22.734+02:00  INFO 43010 --- [Uber Eats] [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:ubereatsDB'
+2024-07-17T15:14:22.780+02:00  INFO 43010 --- [Uber Eats] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-07-17T15:14:22.800+02:00  INFO 43010 --- [Uber Eats] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.9.Final
+2024-07-17T15:14:22.812+02:00  INFO 43010 --- [Uber Eats] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-07-17T15:14:22.882+02:00  INFO 43010 --- [Uber Eats] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-07-17T15:14:22.896+02:00  WARN 43010 --- [Uber Eats] [main] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-07-17T15:14:23.181+02:00  INFO 43010 --- [Uber Eats] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-07-17T15:14:23.196+02:00  INFO 43010 --- [Uber Eats] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-07-17T15:14:23.268+02:00  WARN 43010 --- [Uber Eats] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-07-17T15:14:23.380+02:00  INFO 43010 --- [Uber Eats] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8081 (http) with context path ''
+2024-07-17T15:14:23.384+02:00  INFO 43010 --- [Uber Eats] [main] c.t.j.JobeJavaMatawanSolutionApplication : Started JobeJavaMatawanSolutionApplication in 1.27 seconds (process running for 1.492)
+2024-07-17T15:14:23.385+02:00  INFO 43010 --- [Uber Eats] [main] c.t.j.SeedDatabase                       : Seeding teams and players.
+2024-07-17T15:14:23.427+02:00  INFO 43010 --- [Uber Eats] [main] c.t.j.SeedDatabase                       : Seeding successful.
+2024-07-17T15:14:30.675+02:00  INFO 43010 --- [Uber Eats] [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-07-17T15:14:30.676+02:00  INFO 43010 --- [Uber Eats] [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-07-17T15:14:30.677+02:00  INFO 43010 --- [Uber Eats] [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-07-17T15:14:36.254+02:00  INFO 43010 --- [Uber Eats] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-07-17T15:14:36.257+02:00  INFO 43010 --- [Uber Eats] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-07-17T15:14:36.258+02:00  INFO 43010 --- [Uber Eats] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-07-17T15:20:12.466+02:00  INFO 43064 --- [Uber Eats] [main] c.t.j.JobeJavaMatawanSolutionApplication : Starting JobeJavaMatawanSolutionApplication using Java 22.0.1 with PID 43064 (/Users/seedy/IdeaProjects/jobeJavaMatawanSolution/target/classes started by seedy in /Users/seedy/IdeaProjects/jobeJavaMatawanSolution)
+2024-07-17T15:20:12.467+02:00  INFO 43064 --- [Uber Eats] [main] c.t.j.JobeJavaMatawanSolutionApplication : No active profile set, falling back to 1 default profile: "default"
+2024-07-17T15:20:12.659+02:00  INFO 43064 --- [Uber Eats] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-07-17T15:20:12.676+02:00  INFO 43064 --- [Uber Eats] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 13 ms. Found 2 JPA repository interfaces.
+2024-07-17T15:20:12.822+02:00  INFO 43064 --- [Uber Eats] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8081 (http)
+2024-07-17T15:20:12.826+02:00  INFO 43064 --- [Uber Eats] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-07-17T15:20:12.826+02:00  INFO 43064 --- [Uber Eats] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-07-17T15:20:12.843+02:00  INFO 43064 --- [Uber Eats] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-07-17T15:20:12.844+02:00  INFO 43064 --- [Uber Eats] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 364 ms
+2024-07-17T15:20:12.853+02:00  INFO 43064 --- [Uber Eats] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-07-17T15:20:12.918+02:00  INFO 43064 --- [Uber Eats] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:ubereatsDB user=SA
+2024-07-17T15:20:12.919+02:00  INFO 43064 --- [Uber Eats] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-07-17T15:20:12.923+02:00  INFO 43064 --- [Uber Eats] [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:ubereatsDB'
+2024-07-17T15:20:12.968+02:00  INFO 43064 --- [Uber Eats] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-07-17T15:20:12.989+02:00  INFO 43064 --- [Uber Eats] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.9.Final
+2024-07-17T15:20:13.002+02:00  INFO 43064 --- [Uber Eats] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-07-17T15:20:13.069+02:00  INFO 43064 --- [Uber Eats] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-07-17T15:20:13.083+02:00  WARN 43064 --- [Uber Eats] [main] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-07-17T15:20:13.365+02:00  INFO 43064 --- [Uber Eats] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-07-17T15:20:13.380+02:00  INFO 43064 --- [Uber Eats] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-07-17T15:20:13.452+02:00  WARN 43064 --- [Uber Eats] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-07-17T15:20:13.562+02:00  INFO 43064 --- [Uber Eats] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8081 (http) with context path ''
+2024-07-17T15:20:13.568+02:00  INFO 43064 --- [Uber Eats] [main] c.t.j.JobeJavaMatawanSolutionApplication : Started JobeJavaMatawanSolutionApplication in 1.244 seconds (process running for 1.465)
+2024-07-17T15:20:13.569+02:00  INFO 43064 --- [Uber Eats] [main] c.t.j.SeedDatabase                       : Seeding teams and players.
+2024-07-17T15:20:13.612+02:00  INFO 43064 --- [Uber Eats] [main] c.t.j.SeedDatabase                       : Seeding successful.
+2024-07-17T15:21:07.541+02:00  INFO 43064 --- [Uber Eats] [http-nio-8081-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-07-17T15:21:07.543+02:00  INFO 43064 --- [Uber Eats] [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-07-17T15:21:07.546+02:00  INFO 43064 --- [Uber Eats] [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2024-07-17T15:21:07.594+02:00  INFO 43064 --- [Uber Eats] [http-nio-8081-exec-2] c.t.j.service.TeamService                : TeamService: Adding new team
+2024-07-17T15:21:09.981+02:00  INFO 43064 --- [Uber Eats] [http-nio-8081-exec-3] c.t.j.service.TeamService                : TeamService: Adding new team
+2024-07-17T15:21:09.986+02:00  WARN 43064 --- [Uber Eats] [http-nio-8081-exec-3] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 23505, SQLState: 23505
+2024-07-17T15:21:09.987+02:00 ERROR 43064 --- [Uber Eats] [http-nio-8081-exec-3] o.h.engine.jdbc.spi.SqlExceptionHelper   : Unique index or primary key violation: "PUBLIC.CONSTRAINT_INDEX_2 ON PUBLIC.TEAM(BUDGET NULLS FIRST) VALUES ( /* 4 */ CAST(50000.0 AS DOUBLE PRECISION) )"; SQL statement:
+insert into team (acronym,budget,name,id) values (?,?,?,default) [23505-224]
+2024-07-17T15:21:10.002+02:00 ERROR 43064 --- [Uber Eats] [http-nio-8081-exec-3] c.t.j.controller.TeamController          : TeamController: could not execute statement [Unique index or primary key violation: "PUBLIC.CONSTRAINT_INDEX_2 ON PUBLIC.TEAM(BUDGET NULLS FIRST) VALUES ( /* 4 */ CAST(50000.0 AS DOUBLE PRECISION) )"; SQL statement:
+insert into team (acronym,budget,name,id) values (?,?,?,default) [23505-224]] [insert into team (acronym,budget,name,id) values (?,?,?,default)]; SQL [insert into team (acronym,budget,name,id) values (?,?,?,default)]; constraint ["PUBLIC.CONSTRAINT_INDEX_2 ON PUBLIC.TEAM(BUDGET NULLS FIRST) VALUES ( /* 4 */ CAST(50000.0 AS DOUBLE PRECISION) )"; SQL statement:
+insert into team (acronym,budget,name,id) values (?,?,?,default) [23505-224]]
+2024-07-17T15:21:27.428+02:00 ERROR 43064 --- [Uber Eats] [http-nio-8081-exec-4] c.t.j.controller.TeamController          : TeamController: Cannot invoke "String.isEmpty()" because the return value of "com.test.jobejavamatawansolution.model.Team.getName()" is null
+2024-07-17T15:21:32.173+02:00  INFO 43064 --- [Uber Eats] [http-nio-8081-exec-7] c.t.j.service.TeamService                : TeamService: Adding new team
+2024-07-17T15:22:05.322+02:00  INFO 43064 --- [Uber Eats] [http-nio-8081-exec-8] c.t.j.service.TeamService                : TeamService: Adding new team
+2024-07-17T15:22:05.329+02:00  WARN 43064 --- [Uber Eats] [http-nio-8081-exec-8] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 23505, SQLState: 23505
+2024-07-17T15:22:05.329+02:00 ERROR 43064 --- [Uber Eats] [http-nio-8081-exec-8] o.h.engine.jdbc.spi.SqlExceptionHelper   : Unique index or primary key violation: "PUBLIC.CONSTRAINT_INDEX_2 ON PUBLIC.TEAM(BUDGET NULLS FIRST) VALUES ( /* 6 */ CAST(520000.0 AS DOUBLE PRECISION) )"; SQL statement:
+insert into team (acronym,budget,name,id) values (?,?,?,default) [23505-224]
+2024-07-17T15:22:05.330+02:00 ERROR 43064 --- [Uber Eats] [http-nio-8081-exec-8] c.t.j.controller.TeamController          : TeamController: could not execute statement [Unique index or primary key violation: "PUBLIC.CONSTRAINT_INDEX_2 ON PUBLIC.TEAM(BUDGET NULLS FIRST) VALUES ( /* 6 */ CAST(520000.0 AS DOUBLE PRECISION) )"; SQL statement:
+insert into team (acronym,budget,name,id) values (?,?,?,default) [23505-224]] [insert into team (acronym,budget,name,id) values (?,?,?,default)]; SQL [insert into team (acronym,budget,name,id) values (?,?,?,default)]; constraint ["PUBLIC.CONSTRAINT_INDEX_2 ON PUBLIC.TEAM(BUDGET NULLS FIRST) VALUES ( /* 6 */ CAST(520000.0 AS DOUBLE PRECISION) )"; SQL statement:
+insert into team (acronym,budget,name,id) values (?,?,?,default) [23505-224]]
+2024-07-17T15:24:39.633+02:00  INFO 43064 --- [Uber Eats] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-07-17T15:24:39.648+02:00  INFO 43064 --- [Uber Eats] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-07-17T15:24:39.650+02:00  INFO 43064 --- [Uber Eats] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-07-17T15:36:55.710+02:00  INFO 43326 --- [Uber Eats] [main] c.t.j.JobeJavaMatawanSolutionApplication : Starting JobeJavaMatawanSolutionApplication using Java 22.0.1 with PID 43326 (/Users/seedy/IdeaProjects/jobeJavaMatawanSolution/target/classes started by seedy in /Users/seedy/IdeaProjects/jobeJavaMatawanSolution)
+2024-07-17T15:36:55.711+02:00  INFO 43326 --- [Uber Eats] [main] c.t.j.JobeJavaMatawanSolutionApplication : No active profile set, falling back to 1 default profile: "default"
+2024-07-17T15:36:55.930+02:00  INFO 43326 --- [Uber Eats] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-07-17T15:36:55.948+02:00  INFO 43326 --- [Uber Eats] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 15 ms. Found 2 JPA repository interfaces.
+2024-07-17T15:36:56.101+02:00  INFO 43326 --- [Uber Eats] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8081 (http)
+2024-07-17T15:36:56.105+02:00  INFO 43326 --- [Uber Eats] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-07-17T15:36:56.105+02:00  INFO 43326 --- [Uber Eats] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-07-17T15:36:56.118+02:00  INFO 43326 --- [Uber Eats] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-07-17T15:36:56.118+02:00  INFO 43326 --- [Uber Eats] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 387 ms
+2024-07-17T15:36:56.128+02:00  INFO 43326 --- [Uber Eats] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-07-17T15:36:56.206+02:00  INFO 43326 --- [Uber Eats] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:ubereatsDB user=SA
+2024-07-17T15:36:56.206+02:00  INFO 43326 --- [Uber Eats] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-07-17T15:36:56.210+02:00  INFO 43326 --- [Uber Eats] [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:ubereatsDB'
+2024-07-17T15:36:56.256+02:00  INFO 43326 --- [Uber Eats] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-07-17T15:36:56.281+02:00  INFO 43326 --- [Uber Eats] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.9.Final
+2024-07-17T15:36:56.293+02:00  INFO 43326 --- [Uber Eats] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-07-17T15:36:56.367+02:00  INFO 43326 --- [Uber Eats] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-07-17T15:36:56.385+02:00  WARN 43326 --- [Uber Eats] [main] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-07-17T15:36:56.668+02:00  INFO 43326 --- [Uber Eats] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-07-17T15:36:56.683+02:00  INFO 43326 --- [Uber Eats] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-07-17T15:36:56.759+02:00  WARN 43326 --- [Uber Eats] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-07-17T15:36:56.874+02:00  INFO 43326 --- [Uber Eats] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8081 (http) with context path ''
+2024-07-17T15:36:56.877+02:00  INFO 43326 --- [Uber Eats] [main] c.t.j.JobeJavaMatawanSolutionApplication : Started JobeJavaMatawanSolutionApplication in 1.321 seconds (process running for 1.57)
+2024-07-17T15:36:56.879+02:00  INFO 43326 --- [Uber Eats] [main] c.t.j.SeedDatabase                       : Seeding teams and players.
+2024-07-17T15:36:56.920+02:00  INFO 43326 --- [Uber Eats] [main] c.t.j.SeedDatabase                       : Seeding successful.
+2024-07-17T15:36:57.256+02:00  INFO 43326 --- [Uber Eats] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-07-17T15:36:57.259+02:00  INFO 43326 --- [Uber Eats] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-07-17T15:36:57.260+02:00  INFO 43326 --- [Uber Eats] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-07-17T15:50:57.114+02:00  INFO 43427 --- [Uber Eats] [main] c.t.j.TeamControllerTest                 : Starting TeamControllerTest using Java 22.0.1 with PID 43427 (started by seedy in /Users/seedy/IdeaProjects/jobeJavaMatawanSolution)
+2024-07-17T15:50:57.114+02:00  INFO 43427 --- [Uber Eats] [main] c.t.j.TeamControllerTest                 : No active profile set, falling back to 1 default profile: "default"
+2024-07-17T15:50:57.322+02:00  INFO 43427 --- [Uber Eats] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-07-17T15:50:57.340+02:00  INFO 43427 --- [Uber Eats] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 15 ms. Found 2 JPA repository interfaces.
+2024-07-17T15:50:57.478+02:00  INFO 43427 --- [Uber Eats] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-07-17T15:50:57.548+02:00  INFO 43427 --- [Uber Eats] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:ubereatsDB user=SA
+2024-07-17T15:50:57.548+02:00  INFO 43427 --- [Uber Eats] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-07-17T15:50:57.567+02:00  INFO 43427 --- [Uber Eats] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-07-17T15:50:57.595+02:00  INFO 43427 --- [Uber Eats] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.9.Final
+2024-07-17T15:50:57.613+02:00  INFO 43427 --- [Uber Eats] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-07-17T15:50:57.693+02:00  INFO 43427 --- [Uber Eats] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-07-17T15:50:57.709+02:00  WARN 43427 --- [Uber Eats] [main] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-07-17T15:50:58.012+02:00  INFO 43427 --- [Uber Eats] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-07-17T15:50:58.029+02:00  INFO 43427 --- [Uber Eats] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-07-17T15:50:58.161+02:00  WARN 43427 --- [Uber Eats] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-07-17T15:50:58.295+02:00  INFO 43427 --- [Uber Eats] [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:ubereatsDB'
+2024-07-17T15:50:58.312+02:00  INFO 43427 --- [Uber Eats] [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2024-07-17T15:50:58.312+02:00  INFO 43427 --- [Uber Eats] [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2024-07-17T15:50:58.313+02:00  INFO 43427 --- [Uber Eats] [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
+2024-07-17T15:50:58.323+02:00  INFO 43427 --- [Uber Eats] [main] c.t.j.TeamControllerTest                 : Started TeamControllerTest in 1.395 seconds (process running for 1.747)
+2024-07-17T15:50:58.324+02:00  INFO 43427 --- [Uber Eats] [main] c.t.j.SeedDatabase                       : Seeding teams and players.
+2024-07-17T15:50:58.365+02:00  INFO 43427 --- [Uber Eats] [main] c.t.j.SeedDatabase                       : Seeding successful.
+2024-07-17T15:50:58.650+02:00  INFO 43427 --- [Uber Eats] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-07-17T15:50:58.652+02:00  INFO 43427 --- [Uber Eats] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-07-17T15:50:58.653+02:00  INFO 43427 --- [Uber Eats] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-07-17T15:51:30.044+02:00  INFO 43432 --- [Uber Eats] [main] c.t.j.TeamControllerTest                 : Starting TeamControllerTest using Java 22.0.1 with PID 43432 (started by seedy in /Users/seedy/IdeaProjects/jobeJavaMatawanSolution)
+2024-07-17T15:51:30.045+02:00  INFO 43432 --- [Uber Eats] [main] c.t.j.TeamControllerTest                 : No active profile set, falling back to 1 default profile: "default"
+2024-07-17T15:51:30.247+02:00  INFO 43432 --- [Uber Eats] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-07-17T15:51:30.265+02:00  INFO 43432 --- [Uber Eats] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 15 ms. Found 2 JPA repository interfaces.
+2024-07-17T15:51:30.398+02:00  INFO 43432 --- [Uber Eats] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-07-17T15:51:30.460+02:00  INFO 43432 --- [Uber Eats] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:ubereatsDB user=SA
+2024-07-17T15:51:30.461+02:00  INFO 43432 --- [Uber Eats] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-07-17T15:51:30.479+02:00  INFO 43432 --- [Uber Eats] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-07-17T15:51:30.503+02:00  INFO 43432 --- [Uber Eats] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.9.Final
+2024-07-17T15:51:30.519+02:00  INFO 43432 --- [Uber Eats] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-07-17T15:51:30.592+02:00  INFO 43432 --- [Uber Eats] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-07-17T15:51:30.607+02:00  WARN 43432 --- [Uber Eats] [main] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-07-17T15:51:30.905+02:00  INFO 43432 --- [Uber Eats] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-07-17T15:51:30.922+02:00  INFO 43432 --- [Uber Eats] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-07-17T15:51:31.042+02:00  WARN 43432 --- [Uber Eats] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-07-17T15:51:31.171+02:00  INFO 43432 --- [Uber Eats] [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:ubereatsDB'
+2024-07-17T15:51:31.187+02:00  INFO 43432 --- [Uber Eats] [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2024-07-17T15:51:31.188+02:00  INFO 43432 --- [Uber Eats] [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2024-07-17T15:51:31.188+02:00  INFO 43432 --- [Uber Eats] [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 0 ms
+2024-07-17T15:51:31.198+02:00  INFO 43432 --- [Uber Eats] [main] c.t.j.TeamControllerTest                 : Started TeamControllerTest in 1.292 seconds (process running for 1.634)
+2024-07-17T15:51:31.199+02:00  INFO 43432 --- [Uber Eats] [main] c.t.j.SeedDatabase                       : Seeding teams and players.
+2024-07-17T15:51:31.241+02:00  INFO 43432 --- [Uber Eats] [main] c.t.j.SeedDatabase                       : Seeding successful.
+2024-07-17T15:51:31.531+02:00  INFO 43432 --- [Uber Eats] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-07-17T15:51:31.533+02:00  INFO 43432 --- [Uber Eats] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-07-17T15:51:31.534+02:00  INFO 43432 --- [Uber Eats] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-07-17T15:53:03.117+02:00  INFO 43463 --- [Uber Eats] [main] c.t.j.TeamControllerTest                 : Starting TeamControllerTest using Java 22.0.1 with PID 43463 (started by seedy in /Users/seedy/IdeaProjects/jobeJavaMatawanSolution)
+2024-07-17T15:53:03.118+02:00  INFO 43463 --- [Uber Eats] [main] c.t.j.TeamControllerTest                 : No active profile set, falling back to 1 default profile: "default"
+2024-07-17T15:53:03.321+02:00  INFO 43463 --- [Uber Eats] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-07-17T15:53:03.338+02:00  INFO 43463 --- [Uber Eats] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 14 ms. Found 2 JPA repository interfaces.
+2024-07-17T15:53:03.472+02:00  INFO 43463 --- [Uber Eats] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-07-17T15:53:03.535+02:00  INFO 43463 --- [Uber Eats] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:ubereatsDB user=SA
+2024-07-17T15:53:03.536+02:00  INFO 43463 --- [Uber Eats] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-07-17T15:53:03.555+02:00  INFO 43463 --- [Uber Eats] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-07-17T15:53:03.580+02:00  INFO 43463 --- [Uber Eats] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.9.Final
+2024-07-17T15:53:03.596+02:00  INFO 43463 --- [Uber Eats] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-07-17T15:53:03.670+02:00  INFO 43463 --- [Uber Eats] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-07-17T15:53:03.686+02:00  WARN 43463 --- [Uber Eats] [main] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-07-17T15:53:03.997+02:00  INFO 43463 --- [Uber Eats] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-07-17T15:53:04.015+02:00  INFO 43463 --- [Uber Eats] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-07-17T15:53:04.140+02:00  WARN 43463 --- [Uber Eats] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-07-17T15:53:04.262+02:00  INFO 43463 --- [Uber Eats] [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:ubereatsDB'
+2024-07-17T15:53:04.280+02:00  INFO 43463 --- [Uber Eats] [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2024-07-17T15:53:04.281+02:00  INFO 43463 --- [Uber Eats] [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2024-07-17T15:53:04.281+02:00  INFO 43463 --- [Uber Eats] [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 0 ms
+2024-07-17T15:53:04.292+02:00  INFO 43463 --- [Uber Eats] [main] c.t.j.TeamControllerTest                 : Started TeamControllerTest in 1.318 seconds (process running for 1.65)
+2024-07-17T15:53:04.293+02:00  INFO 43463 --- [Uber Eats] [main] c.t.j.SeedDatabase                       : Seeding teams and players.
+2024-07-17T15:53:04.336+02:00  INFO 43463 --- [Uber Eats] [main] c.t.j.SeedDatabase                       : Seeding successful.
+2024-07-17T15:53:04.620+02:00  INFO 43463 --- [Uber Eats] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-07-17T15:53:04.622+02:00  INFO 43463 --- [Uber Eats] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-07-17T15:53:04.622+02:00  INFO 43463 --- [Uber Eats] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-07-17T15:55:22.393+02:00  INFO 43547 --- [Uber Eats] [main] c.t.j.TeamControllerTest                 : Starting TeamControllerTest using Java 22.0.1 with PID 43547 (started by seedy in /Users/seedy/IdeaProjects/jobeJavaMatawanSolution)
+2024-07-17T15:55:22.394+02:00  INFO 43547 --- [Uber Eats] [main] c.t.j.TeamControllerTest                 : No active profile set, falling back to 1 default profile: "default"
+2024-07-17T15:55:22.598+02:00  INFO 43547 --- [Uber Eats] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-07-17T15:55:22.617+02:00  INFO 43547 --- [Uber Eats] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 16 ms. Found 2 JPA repository interfaces.
+2024-07-17T15:55:22.755+02:00  INFO 43547 --- [Uber Eats] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-07-17T15:55:22.822+02:00  INFO 43547 --- [Uber Eats] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:ubereatsDB user=SA
+2024-07-17T15:55:22.822+02:00  INFO 43547 --- [Uber Eats] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-07-17T15:55:22.840+02:00  INFO 43547 --- [Uber Eats] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-07-17T15:55:22.868+02:00  INFO 43547 --- [Uber Eats] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.9.Final
+2024-07-17T15:55:22.886+02:00  INFO 43547 --- [Uber Eats] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-07-17T15:55:22.964+02:00  INFO 43547 --- [Uber Eats] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-07-17T15:55:22.981+02:00  WARN 43547 --- [Uber Eats] [main] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-07-17T15:55:23.295+02:00  INFO 43547 --- [Uber Eats] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-07-17T15:55:23.312+02:00  INFO 43547 --- [Uber Eats] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-07-17T15:55:23.437+02:00  WARN 43547 --- [Uber Eats] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-07-17T15:55:23.564+02:00  INFO 43547 --- [Uber Eats] [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:ubereatsDB'
+2024-07-17T15:55:23.582+02:00  INFO 43547 --- [Uber Eats] [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2024-07-17T15:55:23.582+02:00  INFO 43547 --- [Uber Eats] [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2024-07-17T15:55:23.583+02:00  INFO 43547 --- [Uber Eats] [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
+2024-07-17T15:55:23.594+02:00  INFO 43547 --- [Uber Eats] [main] c.t.j.TeamControllerTest                 : Started TeamControllerTest in 1.36 seconds (process running for 1.719)
+2024-07-17T15:55:23.596+02:00  INFO 43547 --- [Uber Eats] [main] c.t.j.SeedDatabase                       : Seeding teams and players.
+2024-07-17T15:55:23.636+02:00  INFO 43547 --- [Uber Eats] [main] c.t.j.SeedDatabase                       : Seeding successful.
+2024-07-17T15:55:23.997+02:00  INFO 43547 --- [Uber Eats] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-07-17T15:55:23.999+02:00  INFO 43547 --- [Uber Eats] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-07-17T15:55:24.000+02:00  INFO 43547 --- [Uber Eats] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-07-17T15:56:18.302+02:00  INFO 43554 --- [Uber Eats] [main] c.t.j.HealthCheckTests                   : Starting HealthCheckTests using Java 22.0.1 with PID 43554 (started by seedy in /Users/seedy/IdeaProjects/jobeJavaMatawanSolution)
+2024-07-17T15:56:18.303+02:00  INFO 43554 --- [Uber Eats] [main] c.t.j.HealthCheckTests                   : No active profile set, falling back to 1 default profile: "default"
+2024-07-17T15:56:18.502+02:00  INFO 43554 --- [Uber Eats] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-07-17T15:56:18.520+02:00  INFO 43554 --- [Uber Eats] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 15 ms. Found 2 JPA repository interfaces.
+2024-07-17T15:56:18.654+02:00  INFO 43554 --- [Uber Eats] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-07-17T15:56:18.717+02:00  INFO 43554 --- [Uber Eats] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:ubereatsDB user=SA
+2024-07-17T15:56:18.718+02:00  INFO 43554 --- [Uber Eats] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-07-17T15:56:18.737+02:00  INFO 43554 --- [Uber Eats] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-07-17T15:56:18.761+02:00  INFO 43554 --- [Uber Eats] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.9.Final
+2024-07-17T15:56:18.776+02:00  INFO 43554 --- [Uber Eats] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-07-17T15:56:18.849+02:00  INFO 43554 --- [Uber Eats] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-07-17T15:56:18.865+02:00  WARN 43554 --- [Uber Eats] [main] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-07-17T15:56:19.174+02:00  INFO 43554 --- [Uber Eats] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-07-17T15:56:19.193+02:00  INFO 43554 --- [Uber Eats] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-07-17T15:56:19.313+02:00  WARN 43554 --- [Uber Eats] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-07-17T15:56:19.428+02:00  INFO 43554 --- [Uber Eats] [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:ubereatsDB'
+2024-07-17T15:56:19.444+02:00  INFO 43554 --- [Uber Eats] [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2024-07-17T15:56:19.444+02:00  INFO 43554 --- [Uber Eats] [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2024-07-17T15:56:19.445+02:00  INFO 43554 --- [Uber Eats] [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
+2024-07-17T15:56:19.456+02:00  INFO 43554 --- [Uber Eats] [main] c.t.j.HealthCheckTests                   : Started HealthCheckTests in 1.296 seconds (process running for 1.626)
+2024-07-17T15:56:19.457+02:00  INFO 43554 --- [Uber Eats] [main] c.t.j.SeedDatabase                       : Seeding teams and players.
+2024-07-17T15:56:19.496+02:00  INFO 43554 --- [Uber Eats] [main] c.t.j.SeedDatabase                       : Seeding successful.
+2024-07-17T15:56:19.786+02:00  INFO 43554 --- [Uber Eats] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-07-17T15:56:19.788+02:00  INFO 43554 --- [Uber Eats] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-07-17T15:56:19.789+02:00  INFO 43554 --- [Uber Eats] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-07-17T15:58:19.307+02:00  INFO 43676 --- [Uber Eats] [main] c.t.j.TeamControllerTest                 : Starting TeamControllerTest using Java 22.0.1 with PID 43676 (started by seedy in /Users/seedy/IdeaProjects/jobeJavaMatawanSolution)
+2024-07-17T15:58:19.307+02:00  INFO 43676 --- [Uber Eats] [main] c.t.j.TeamControllerTest                 : No active profile set, falling back to 1 default profile: "default"
+2024-07-17T15:58:19.519+02:00  INFO 43676 --- [Uber Eats] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-07-17T15:58:19.537+02:00  INFO 43676 --- [Uber Eats] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 16 ms. Found 2 JPA repository interfaces.
+2024-07-17T15:58:19.678+02:00  INFO 43676 --- [Uber Eats] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-07-17T15:58:19.741+02:00  INFO 43676 --- [Uber Eats] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:ubereatsDB user=SA
+2024-07-17T15:58:19.742+02:00  INFO 43676 --- [Uber Eats] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-07-17T15:58:19.760+02:00  INFO 43676 --- [Uber Eats] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-07-17T15:58:19.784+02:00  INFO 43676 --- [Uber Eats] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.9.Final
+2024-07-17T15:58:19.800+02:00  INFO 43676 --- [Uber Eats] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-07-17T15:58:19.875+02:00  INFO 43676 --- [Uber Eats] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-07-17T15:58:19.890+02:00  WARN 43676 --- [Uber Eats] [main] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-07-17T15:58:20.194+02:00  INFO 43676 --- [Uber Eats] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-07-17T15:58:20.212+02:00  INFO 43676 --- [Uber Eats] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-07-17T15:58:20.370+02:00  WARN 43676 --- [Uber Eats] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-07-17T15:58:20.490+02:00  INFO 43676 --- [Uber Eats] [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:ubereatsDB'
+2024-07-17T15:58:20.507+02:00  INFO 43676 --- [Uber Eats] [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2024-07-17T15:58:20.507+02:00  INFO 43676 --- [Uber Eats] [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2024-07-17T15:58:20.508+02:00  INFO 43676 --- [Uber Eats] [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
+2024-07-17T15:58:20.518+02:00  INFO 43676 --- [Uber Eats] [main] c.t.j.TeamControllerTest                 : Started TeamControllerTest in 1.358 seconds (process running for 1.719)
+2024-07-17T15:58:20.519+02:00  INFO 43676 --- [Uber Eats] [main] c.t.j.SeedDatabase                       : Seeding teams and players.
+2024-07-17T15:58:20.560+02:00  INFO 43676 --- [Uber Eats] [main] c.t.j.SeedDatabase                       : Seeding successful.
+2024-07-17T15:58:20.843+02:00  INFO 43676 --- [Uber Eats] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-07-17T15:58:20.846+02:00  INFO 43676 --- [Uber Eats] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-07-17T15:58:20.846+02:00  INFO 43676 --- [Uber Eats] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-07-17T16:00:46.649+02:00  INFO 43722 --- [Uber Eats] [main] .JobeJavaMatawanSolutionApplicationTests : Starting JobeJavaMatawanSolutionApplicationTests using Java 22.0.1 with PID 43722 (started by seedy in /Users/seedy/IdeaProjects/jobeJavaMatawanSolution)
+2024-07-17T16:00:46.650+02:00  INFO 43722 --- [Uber Eats] [main] .JobeJavaMatawanSolutionApplicationTests : No active profile set, falling back to 1 default profile: "default"
+2024-07-17T16:00:46.855+02:00  INFO 43722 --- [Uber Eats] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-07-17T16:00:46.874+02:00  INFO 43722 --- [Uber Eats] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 14 ms. Found 1 JPA repository interface.
+2024-07-17T16:00:47.013+02:00  INFO 43722 --- [Uber Eats] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-07-17T16:00:47.078+02:00  INFO 43722 --- [Uber Eats] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:ubereatsDB user=SA
+2024-07-17T16:00:47.079+02:00  INFO 43722 --- [Uber Eats] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-07-17T16:00:47.096+02:00  INFO 43722 --- [Uber Eats] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-07-17T16:00:47.115+02:00  INFO 43722 --- [Uber Eats] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.9.Final
+2024-07-17T16:00:47.132+02:00  INFO 43722 --- [Uber Eats] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-07-17T16:00:47.208+02:00  INFO 43722 --- [Uber Eats] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-07-17T16:00:47.224+02:00  WARN 43722 --- [Uber Eats] [main] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-07-17T16:00:47.525+02:00  INFO 43722 --- [Uber Eats] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-07-17T16:00:47.544+02:00  INFO 43722 --- [Uber Eats] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-07-17T16:00:47.667+02:00  WARN 43722 --- [Uber Eats] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-07-17T16:00:47.783+02:00  INFO 43722 --- [Uber Eats] [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:ubereatsDB'
+2024-07-17T16:00:47.804+02:00  INFO 43722 --- [Uber Eats] [main] .JobeJavaMatawanSolutionApplicationTests : Started JobeJavaMatawanSolutionApplicationTests in 1.297 seconds (process running for 1.628)
+2024-07-17T16:00:47.805+02:00  INFO 43722 --- [Uber Eats] [main] c.t.j.SeedDatabase                       : Seeding teams and players.
+2024-07-17T16:00:47.846+02:00  INFO 43722 --- [Uber Eats] [main] c.t.j.SeedDatabase                       : Seeding successful.
+2024-07-17T16:00:48.110+02:00  INFO 43722 --- [Uber Eats] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-07-17T16:00:48.112+02:00  INFO 43722 --- [Uber Eats] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-07-17T16:00:48.113+02:00  INFO 43722 --- [Uber Eats] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-07-17T16:32:09.500+02:00  INFO 44239 --- [Uber Eats] [main] .JobeJavaMatawanSolutionApplicationTests : Starting JobeJavaMatawanSolutionApplicationTests using Java 22.0.1 with PID 44239 (started by seedy in /Users/seedy/IdeaProjects/jobeJavaMatawanSolution)
+2024-07-17T16:32:09.502+02:00  INFO 44239 --- [Uber Eats] [main] .JobeJavaMatawanSolutionApplicationTests : No active profile set, falling back to 1 default profile: "default"
+2024-07-17T16:32:09.727+02:00  INFO 44239 --- [Uber Eats] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-07-17T16:32:09.746+02:00  INFO 44239 --- [Uber Eats] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 15 ms. Found 1 JPA repository interface.
+2024-07-17T16:32:09.884+02:00  INFO 44239 --- [Uber Eats] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-07-17T16:32:09.956+02:00  INFO 44239 --- [Uber Eats] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:ubereatsDB user=SA
+2024-07-17T16:32:09.957+02:00  INFO 44239 --- [Uber Eats] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-07-17T16:32:09.975+02:00  INFO 44239 --- [Uber Eats] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-07-17T16:32:10.007+02:00  INFO 44239 --- [Uber Eats] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.9.Final
+2024-07-17T16:32:10.021+02:00  INFO 44239 --- [Uber Eats] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-07-17T16:32:10.114+02:00  INFO 44239 --- [Uber Eats] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-07-17T16:32:10.139+02:00  WARN 44239 --- [Uber Eats] [main] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-07-17T16:32:10.474+02:00  INFO 44239 --- [Uber Eats] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-07-17T16:32:10.490+02:00  INFO 44239 --- [Uber Eats] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-07-17T16:32:10.614+02:00  WARN 44239 --- [Uber Eats] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-07-17T16:32:10.727+02:00  INFO 44239 --- [Uber Eats] [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:ubereatsDB'
+2024-07-17T16:32:10.745+02:00  INFO 44239 --- [Uber Eats] [main] .JobeJavaMatawanSolutionApplicationTests : Started JobeJavaMatawanSolutionApplicationTests in 1.399 seconds (process running for 1.838)
+2024-07-17T16:32:10.746+02:00  INFO 44239 --- [Uber Eats] [main] c.t.j.SeedDatabase                       : Seeding teams and players.
+2024-07-17T16:32:10.788+02:00  INFO 44239 --- [Uber Eats] [main] c.t.j.SeedDatabase                       : Seeding successful.
+2024-07-17T16:32:11.172+02:00  INFO 44239 --- [Uber Eats] [main] c.t.j.service.TeamService                : TeamService: Adding new team
+2024-07-17T16:32:11.180+02:00  INFO 44239 --- [Uber Eats] [main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.test.jobejavamatawansolution.TeamControllerTest]: TeamControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-07-17T16:32:11.185+02:00  INFO 44239 --- [Uber Eats] [main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.test.jobejavamatawansolution.JobeJavaMatawanSolutionApplication for test class com.test.jobejavamatawansolution.TeamControllerTest
+2024-07-17T16:32:11.205+02:00  INFO 44239 --- [Uber Eats] [main] c.t.j.TeamControllerTest                 : Starting TeamControllerTest using Java 22.0.1 with PID 44239 (started by seedy in /Users/seedy/IdeaProjects/jobeJavaMatawanSolution)
+2024-07-17T16:32:11.206+02:00  INFO 44239 --- [Uber Eats] [main] c.t.j.TeamControllerTest                 : No active profile set, falling back to 1 default profile: "default"
+2024-07-17T16:32:11.294+02:00  INFO 44239 --- [Uber Eats] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-07-17T16:32:11.298+02:00  INFO 44239 --- [Uber Eats] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 3 ms. Found 1 JPA repository interface.
+2024-07-17T16:32:11.341+02:00  INFO 44239 --- [Uber Eats] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2024-07-17T16:32:11.341+02:00  INFO 44239 --- [Uber Eats] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Added connection conn10: url=jdbc:h2:mem:ubereatsDB user=SA
+2024-07-17T16:32:11.341+02:00  INFO 44239 --- [Uber Eats] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2024-07-17T16:32:11.342+02:00  INFO 44239 --- [Uber Eats] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-07-17T16:32:11.343+02:00  INFO 44239 --- [Uber Eats] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-07-17T16:32:11.345+02:00  INFO 44239 --- [Uber Eats] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-07-17T16:32:11.345+02:00  WARN 44239 --- [Uber Eats] [main] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-07-17T16:32:11.367+02:00  INFO 44239 --- [Uber Eats] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-07-17T16:32:11.371+02:00  INFO 44239 --- [Uber Eats] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-07-17T16:32:11.402+02:00  WARN 44239 --- [Uber Eats] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-07-17T16:32:11.442+02:00  INFO 44239 --- [Uber Eats] [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:ubereatsDB'
+2024-07-17T16:32:11.462+02:00  INFO 44239 --- [Uber Eats] [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2024-07-17T16:32:11.462+02:00  INFO 44239 --- [Uber Eats] [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2024-07-17T16:32:11.463+02:00  INFO 44239 --- [Uber Eats] [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
+2024-07-17T16:32:11.467+02:00  INFO 44239 --- [Uber Eats] [main] c.t.j.TeamControllerTest                 : Started TeamControllerTest in 0.28 seconds (process running for 2.56)
+2024-07-17T16:32:11.467+02:00  INFO 44239 --- [Uber Eats] [main] c.t.j.SeedDatabase                       : Seeding teams and players.
+2024-07-17T16:32:11.473+02:00  INFO 44239 --- [Uber Eats] [main] c.t.j.SeedDatabase                       : Seeding successful.
+2024-07-17T16:32:11.588+02:00  INFO 44239 --- [Uber Eats] [main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.test.jobejavamatawansolution.HealthCheckTests]: HealthCheckTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-07-17T16:32:11.590+02:00  INFO 44239 --- [Uber Eats] [main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.test.jobejavamatawansolution.JobeJavaMatawanSolutionApplication for test class com.test.jobejavamatawansolution.HealthCheckTests
+2024-07-17T16:32:11.598+02:00  INFO 44239 --- [Uber Eats] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-07-17T16:32:11.600+02:00  INFO 44239 --- [Uber Eats] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-07-17T16:32:11.600+02:00  INFO 44239 --- [Uber Eats] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-07-17T16:32:11.601+02:00  INFO 44239 --- [Uber Eats] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-07-17T16:32:11.602+02:00  INFO 44239 --- [Uber Eats] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2024-07-17T16:32:11.602+02:00  INFO 44239 --- [Uber Eats] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
